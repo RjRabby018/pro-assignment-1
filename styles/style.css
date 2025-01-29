@@ -130,12 +130,13 @@
   height: 256px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-color: rgba(255, 255, 255, 1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background-image: url('../assets/quote-bg.png');
   background-repeat: no-repeat;
   /* background-position: top left; */
-  background-position: 2% 8.5%;
+  background-position: 2% 9%;
   /* padding: 24px; */
 
 }
@@ -161,4 +162,89 @@
   color: rgba(14, 14, 14, 0.69);
   margin-top: 0;
 
+}
+/* news section design */
+.news-top{
+  margin: 80px 160px 80px 160px;
+}
+.recent-heading{
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+.recent-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.48);
+}
+.row1{
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  /* background-color: #f9f9f9; */
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  gap: 32px;
+  height: 402px;
+}
+.news-image{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 48px 0px 48px 48px;
+}
+
+.row1-content{
+  margin: 56px 48px 56px 0px;
+}
+.news-headline{
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+.date{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.66);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.news-decription{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.66);
+  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
+}
+.news-btn{
+  background-color: #006A50;
+  color: #FFFFFF;
+  padding: 13px 26px 13px 26px;
+  /* font-size: 18px;
+  font-weight: 600;
+  width: 139px;
+  height: 48px; */
+  border-radius: 13px;
+  border: none;
+}
+.row2{
+  margin-top: 24px;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  /* background-color: #f9f9f9; */
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  gap: 32px;
+  height: 402px;
+}
+.row2-content{
+  margin: 56px 0px 56px 48px;
+}
+.news-image-2{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 48px 48px 48px 0px;
 }
