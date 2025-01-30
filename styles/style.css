@@ -9,47 +9,46 @@
 
 /* banner styles */
 .banner{
-    background-color: #C6E4D6;
-    display: flex;
-    margin: 0px 160px 0px 160px;
-    justify-content: space-around;
-    border-radius: 24px;
-    /* width: 1260px;
-    height: 530px; */
-    
+  background-color: #C6E4D6;
+  display: flex;
+  margin: 20px 160px 0px 160px;
+  justify-content: space-around;
+  border-radius: 24px;
+  gap: 60px;
 }
 
 .banner-content{
-  padding: 110px 50px;
-  gap: 60px;
-  margin-bottom: 16px;
+padding: 117px 0px 117px 60px;
+
 }
 
 .banner-title{
-    font-size: 18px;
-    font-weight: 500;
-    /* color: rgba(14, 14, 14, 0.14); */
-    color: rgba(14, 14, 14, 0.38);
-    opacity: 100%;
-    
-    
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.38);
+  opacity: 100%;
+  
+  
 }
 .banner-description{
+  margin-top: 0px;
   font-weight: 800;
   font-size: 50px;
   color: #0E0E0E;
+  margin-bottom: 24px;
 }
 .btn-primary{
-  background-color: #006A50;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border: none;
-  opacity: 100%;
-  border-radius: 8px;
-  margin-bottom: 16px;
+background-color: #006A50;
+color: #FFFFFF;
+padding: 15px 30px;
+border: none;
+opacity: 100%;
+border-radius: 8px;
+margin-bottom: 16px;
+margin-top: 0px;
 }
 .banner-image{
-  padding: 80px 60px 80px 60px;
+padding: 80px 60px 80px 60px;
 }
 
 /* card design */
@@ -60,13 +59,17 @@
   color: #0E0E0E;
   font-weight: 700;
   font-size: 40px;
+  margin-bottom: 14px;
 }
 .card-top-description{
   color: rgba(14, 14, 14, 0.43);
   font-size: 16px;
   font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 14px;
 }
 .card-mother{
+  margin-top: 24px;
   display: flex;
   gap: 24px;
 }
@@ -75,12 +78,14 @@
   background-color:rgba(36, 132, 151, 0.32) ;
   border-radius: 16px;
   width: 410.67px;
+  height: 285px;
 }
 .card-2{
   padding: 32px;
   background-color:rgba(198, 228, 214, 1) ;
   border-radius: 16px;
   width: 410.67px;
+  height: 285px;
 }
 .card-3{
   padding: 32px;
@@ -88,6 +93,7 @@
   border-radius: 16px;
   width: 410.67px;
   height: 325px;
+  height: 285px;
 }
 .card-heading{
   font-weight: 800;
@@ -105,7 +111,7 @@
   padding: 11px 20px 11px 20px;
   color: #FFFFFF;
   border-radius: 8px;
-  margin-top: 24px;
+  margin-top: 14px;
   border: none;
 }
 .btn-2{
@@ -113,7 +119,7 @@
   padding: 11px 20px 11px 20px;
   color: #FFFFFF;
   border-radius: 8px;
-  margin-top: 48px;
+  margin-top: 32px;
   border: none;
 }
 .btn-3{
@@ -121,7 +127,7 @@
   padding: 11px 20px 11px 20px;
   color: #FFFFFF;
   border-radius: 8px;
-  margin-top: 64px;
+  margin-top: 34px;
   border: none;
 }
 /* dr. younus styles*/
@@ -130,14 +136,11 @@
   height: 256px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  /* background-color: #f9f9f9; */
   background-color: rgba(179, 179, 179, 0.13);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   background-image: url('../assets/quote-bg.png');
   background-repeat: no-repeat;
-  /* background-position: top left; */
-  background-position: 2% 9%;
-  /* padding: 24px; */
+  background-position: 2% 10%;
 
 }
 .younus-content{
@@ -148,7 +151,6 @@
   font-weight: 400;
   font-size: 16px;
   color: rgba(14, 14, 14, 0.69);
-  /* margin-bottom: 12px; */
 }
 .name{
   font-weight: 600;
@@ -181,7 +183,6 @@
 .row1{
   border: 1px solid #ddd;
   border-radius: 24px;
-  /* background-color: #f9f9f9; */
   background-color: rgba(179, 179, 179, 0.13);
   display: flex;
   gap: 32px;
@@ -216,16 +217,11 @@
   font-size: 16px;
   color: rgba(14, 14, 14, 0.66);
   margin-bottom: 32px;
-  /* margin-bottom: 32px; */
 }
 .news-btn{
   background-color: #006A50;
   color: #FFFFFF;
   padding: 13px 26px 13px 26px;
-  /* font-size: 18px;
-  font-weight: 600;
-  width: 139px;
-  height: 48px; */
   border-radius: 13px;
   border: none;
 }
@@ -233,7 +229,6 @@
   margin-top: 24px;
   border: 1px solid #ddd;
   border-radius: 24px;
-  /* background-color: #f9f9f9; */
   background-color: rgba(179, 179, 179, 0.13);
   display: flex;
   gap: 32px;
@@ -288,12 +283,10 @@
 }
 .money-donation-1{
   border: 1px solid #ddd;
-  /* background-color: rgba(255, 255, 255, 1); */
-  /* background: white; */
+  background-color: rgba(179, 179, 179, 0.13);
   height: 128px;
   width: 240px;
   border-radius: 16px;
-  /* padding: 40px 40px 40px 40px; */
   align-items: center;
   justify-content: center;
   display: flex;
@@ -319,7 +312,7 @@
   justify-content: center;
   display: flex;
   border: 1px solid #ddd;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(179, 179, 179, 0.13);
   height: 128px;
   width: 243px;
   border-radius: 16px;
@@ -333,7 +326,7 @@
   justify-content: center;
   display: flex;
   border: 1px solid #ddd;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(179, 179, 179, 0.13);
   height: 128px;
   width: 264px;
   border-radius: 16px;
@@ -352,7 +345,7 @@
 .placeholder input[type="text"] {
   display: block;
   height: 64px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid #ddd;
   width: 1032px;
   border: 1px solid #ddd;
@@ -385,7 +378,6 @@
   font-size: 40px;
   font-weight: 700;
 }
-/* 0 329 24 329 */
 .subscribe-des-container{
   padding: 0px 329px 0px 329px;
   margin-top: 0px;
@@ -404,13 +396,12 @@
 }
 footer input[type="text"] {
   display: block;
-  border-radius: 5px;
   height: 55px;
   background-color: white;
-  /* margin-bottom: 24px; */
   width: 600px;
   border: none;
   padding: 0px 403px 0px 40px;
+  border-radius: 5px;
   
 } 
 .news-btn-u{
