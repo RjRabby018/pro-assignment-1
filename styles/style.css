@@ -340,7 +340,6 @@
 }
 .placeholder{
   width: 100%;
-  width: 1012px;
   height: 64px;
   font-size: 20px;
   font-weight: 400;
@@ -354,4 +353,59 @@
   display: flex;
   justify-content: center; 
   align-items: center;
+}
+/* subscribe section design */
+.subscribe{
+  margin: 80px 160px 80px 160px;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  height: 395px;
+}
+.subscribe-heading{
+  padding: 20px 329px 0px 329px;
+  margin-bottom: 0px;
+  
+}
+.font-des{
+  color: rgba(34, 34, 34, 1);
+  font-size: 40px;
+  font-weight: 700;
+}
+/* 0 329 24 329 */
+.subscribe-des-container{
+  padding: 0px 329px 0px 329px;
+  margin-top: 0px;
+}
+.subscribe-des{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.area-control{
+  padding: 0px 265px 24px 265px;
+  display: flex;
+  justify-content: center;
+  width: 750px;
+
+}
+footer input[type="text"] {
+  display: block;
+  border-radius: 5px;
+  height: 55px;
+  background-color: white;
+  /* margin-bottom: 24px; */
+  width: 600px;
+  border: none;
+  padding: 0px 403px 0px 40px;
+  
+
+} 
+.news-btn-u{
+  background-color: #006A50;
+  color: #FFFFFF;
+  padding: 13px 26px 13px 26px;
+  border: none;
+}
+.more{
+  text-align: center;
 }
