@@ -272,6 +272,19 @@
   gap: 24px;
   margin: 32px 104.5px 0px 104.5px;
   margin-top: 0px;
+  width: 1071px;
+}
+.money-donation-1:hover{
+  background-color: yellow;
+}
+.money-donation-2:hover{
+  background-color: yellow;
+}
+.money-donation-3:hover{
+  background-color: yellow;
+}
+.money-donation-4:hover{
+  background-color: yellow;
 }
 .money-donation-1{
   border: 1px solid #ddd;
@@ -329,26 +342,27 @@
   color: #0E0E0E;
 }
 /* input text area */
-.placeholder-holder{
-  padding: 0px 124px 32px 124px ;
-  margin-top: 0px;
-  /* display: flex;
-  align-items: ;
-  justify-content: ;
-  text-align: justify;
-   */
-}
 .placeholder{
-  width: 100%;
+  padding: 0px 124px 24px 124px;
+  display: flex;
+  justify-content: center;
+  width: 1032px;
+
+}
+.placeholder input[type="text"] {
+  display: block;
   height: 64px;
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 1032px;
+  border: 1px solid #ddd;
+  padding: 0px 422.5px 0px 422.5px;
   font-size: 20px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.3);
-  padding: 20px 0px 0px 40px;
-  /* border: 1px solid #ddd; */
-  background-color: rgba(179, 179, 179, 0.13);
-  border: none;
-}
+  
+} 
+
 .donate-btn{
   display: flex;
   justify-content: center; 
@@ -398,7 +412,6 @@ footer input[type="text"] {
   border: none;
   padding: 0px 403px 0px 40px;
   
-
 } 
 .news-btn-u{
   background-color: #006A50;
