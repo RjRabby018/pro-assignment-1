@@ -47,6 +47,9 @@ border-radius: 8px;
 margin-bottom: 16px;
 margin-top: 0px;
 }
+.btn-primary:hover{
+  background-color: aquamarine;
+}
 .banner-image{
 padding: 80px 60px 80px 60px;
 }
@@ -114,6 +117,9 @@ padding: 80px 60px 80px 60px;
   margin-top: 14px;
   border: none;
 }
+.btn-1:hover{
+  background-color: aquamarine;
+}
 .btn-2{
   background-color: #09A15C;
   padding: 11px 20px 11px 20px;
@@ -122,6 +128,9 @@ padding: 80px 60px 80px 60px;
   margin-top: 32px;
   border: none;
 }
+.btn-2:hover{
+  background-color: aquamarine;
+}
 .btn-3{
   background-color: #FFC239;
   padding: 11px 20px 11px 20px;
@@ -129,6 +138,9 @@ padding: 80px 60px 80px 60px;
   border-radius: 8px;
   margin-top: 34px;
   border: none;
+}
+.btn-3:hover{
+  background-color: aquamarine;
 }
 /* dr. younus styles*/
 .Dr-Younus{
@@ -224,6 +236,9 @@ padding: 80px 60px 80px 60px;
   padding: 13px 26px 13px 26px;
   border-radius: 13px;
   border: none;
+}
+.news-btn:hover{
+  background-color: aquamarine;
 }
 .row2{
   margin-top: 24px;
@@ -366,10 +381,11 @@ padding: 80px 60px 80px 60px;
   margin: 80px 160px 80px 160px;
   background-color: rgba(198, 228, 214, 1);
   border-radius: 24px;
-  height: 395px;
+  height: 365px;
 }
 .subscribe-heading{
   padding: 20px 329px 0px 329px;
+  text-align: center;
   margin-bottom: 0px;
   
 }
@@ -380,7 +396,7 @@ padding: 80px 60px 80px 60px;
 }
 .subscribe-des-container{
   padding: 0px 329px 0px 329px;
-  margin-top: 0px;
+  text-align: center;
 }
 .subscribe-des{
   font-size: 16px;
@@ -388,17 +404,17 @@ padding: 80px 60px 80px 60px;
   color: rgba(14, 14, 14, 0.7);
 }
 .area-control{
-  padding: 0px 265px 24px 265px;
+  padding: 0px 365px 24px 365px;
   display: flex;
   justify-content: center;
-  width: 750px;
+  width: 550px;
 
 }
 footer input[type="text"] {
   display: block;
   height: 55px;
   background-color: white;
-  width: 600px;
+  width: 400px;
   border: none;
   padding: 0px 403px 0px 40px;
   border-radius: 5px;
@@ -409,6 +425,9 @@ footer input[type="text"] {
   color: #FFFFFF;
   padding: 13px 26px 13px 26px;
   border: none;
+}
+.news-btn-u:hover{
+  background-color: aquamarine;
 }
 .more{
   text-align: center;
